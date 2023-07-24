@@ -26,6 +26,8 @@ public class Logintest extends base {
 	public void login(String email,String Password,String ExpectedResult) throws IOException, InterruptedException  {
 		
 		
+		System.out.println("Printing something");
+		
 		
 		 
 		Landingpage landingpage=new Landingpage(driver);
