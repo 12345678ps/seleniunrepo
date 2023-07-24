@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-07-17T19:18:42 IST" name="Suite" finished-at="2023-07-17T19:19:23 IST" duration-ms="40744">
+    <groups>
+    </groups>
+    <test started-at="2023-07-17T19:18:42 IST" name="Test" finished-at="2023-07-17T19:19:23 IST" duration-ms="40744">
+      <class name="test.Threetest">
+        <test-method signature="testthree()[pri:0, instance:test.Threetest@750e2b97]" started-at="2023-07-17T19:18:42 IST" name="testthree" finished-at="2023-07-17T19:18:42 IST" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testthree -->
+      </class> <!-- test.Threetest -->
+      <class name="test.Logintest">
+        <test-method is-config="true" signature="openApplication()[pri:0, instance:test.Logintest@449a4f23]" started-at="2023-07-17T19:18:42 IST" name="openApplication" finished-at="2023-07-17T19:18:49 IST" duration-ms="6970" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApplication -->
+        <test-method signature="login(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:test.Logintest@449a4f23]" started-at="2023-07-17T19:18:49 IST" name="login" data-provider="logincredentials" finished-at="2023-07-17T19:18:53 IST" duration-ms="3515" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[arun.selenium@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Second@123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Success]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="closure()[pri:0, instance:test.Logintest@449a4f23]" started-at="2023-07-17T19:18:53 IST" name="closure" finished-at="2023-07-17T19:18:55 IST" duration-ms="1835" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closure -->
+        <test-method is-config="true" signature="openApplication()[pri:0, instance:test.Logintest@449a4f23]" started-at="2023-07-17T19:18:55 IST" name="openApplication" finished-at="2023-07-17T19:19:00 IST" duration-ms="4854" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApplication -->
+        <test-method signature="login(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:test.Logintest@449a4f23]" started-at="2023-07-17T19:19:00 IST" name="login" data-provider="logincredentials" finished-at="2023-07-17T19:19:23 IST" duration-ms="23377" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Dummy@123]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Test@123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Failure]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="closure()[pri:0, instance:test.Logintest@449a4f23]" started-at="2023-07-17T19:19:23 IST" name="closure" finished-at="2023-07-17T19:19:23 IST" duration-ms="115" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closure -->
+      </class> <!-- test.Logintest -->
+      <class name="test.Onetest">
+        <test-method signature="testone()[pri:0, instance:test.Onetest@35dab4eb]" started-at="2023-07-17T19:19:23 IST" name="testone" finished-at="2023-07-17T19:19:23 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testone -->
+      </class> <!-- test.Onetest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
